@@ -1,0 +1,32 @@
+{
+  "name": "gitpoap-gh-badge",
+  "version": "0.0.1",
+  "description": "badge generator for github READMEs",
+  "main": "./src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charmful0x/gitpoap-gh-badge.git"
+  },
+  "keywords": [
+    "gitpoap",
+    "poap",
+    "ethereum"
+  ],
+  "author": "charmful0x",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/charmful0x/gitpoap-gh-badge/issues"
+  },
+  "homepage": "https://github.com/charmful0x/gitpoap-gh-badge#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "github-username-regex": "^1.0.0",
+    "html-prettify": "^1.0.7"
+  }
+}
