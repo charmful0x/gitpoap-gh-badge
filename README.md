@@ -2,7 +2,7 @@
 This repo is a SIMPLE static [GitPOAPs](https://www.gitpoap.io/) badge processor. The server fetch the `claimed` and `unclaimed` GitPOAP badge ***on request***.
 
 ## Build & Run
-```js
+```console
 git pull https://github.com/charmful0x/gitpoap-gh-badge.git
 
 cd gitpoap-gh-badge
@@ -25,7 +25,32 @@ Example: https://gitpoap-gh-badge.herokuapp.com/badges/charmful0x
 
 After hitting the API endpoint with your github username, the server will respond with an HTML code block, copy and paste that code block in your github's profile README repo (`username/username` repo). [Repo Example](https://github.com/charmful0x/charmful0x)
 
-![example](./img/chamrful0x-example.png)
+
+![example](./img/charmful0x-example.png)
+
+## Live Example
+
+<center>
+  <p>
+    <a href="https://www.gitpoap.io/gp/138"
+      ><img
+        src="https://assets.poap.xyz/gitpoap-2022-ethereum-cat-herders-pm-contributor-2022-logo-1654715755129.png"
+        alt="poap"
+        height="150"
+        width="150"
+    /></a>
+    <a href="https://www.gitpoap.io/gp/135"
+      ><img
+        src="https://assets.poap.xyz/gitpoap-2022-ethereum-cat-herders-eipip-contributor-2022-logo-1654715445078.png"
+        alt="poap"
+        height="150"
+        width="150"
+    /></a>
+  </p>
+  <center></center>
+</center>
+
+
 
 ## Roadmap
 - [ ] dynamic all-in-one badges SVG generator
@@ -36,3 +61,4 @@ After hitting the API endpoint with your github username, the server will respon
 
 ## License
 This project is licensed under the [MIT license](./LICENSE)
+
