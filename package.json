@@ -1,6 +1,6 @@
 {
   "name": "gitpoap-gh-badge",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "badge generator for github READMEs",
   "main": "./src/server.js",
   "type": "module",
