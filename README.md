@@ -17,7 +17,9 @@ npm start
 - **API URL: https://gitpoap-gh-badge.herokuapp.com**
 
 1- fetch POAPs by github username
-- `GET /badges/:github_username`
+- `GET /badges/:github_username/:badge_size?`
+
+The `badge_size` parameter is optional, the default value is 150 (150 * 150)
 
 Example: https://gitpoap-gh-badge.herokuapp.com/badges/charmful0x
 
@@ -25,10 +27,7 @@ Example: https://gitpoap-gh-badge.herokuapp.com/badges/charmful0x
 
 After hitting the API endpoint with your github username, the server will respond with an HTML code block, copy and paste that code block in your github's profile README repo (`username/username` repo). [Repo Example](https://github.com/charmful0x/charmful0x)
 
-
 ![example](./img/charmful0x-example.png)
-
-## Live Example
 
 <center>
   <p>
@@ -49,7 +48,6 @@ After hitting the API endpoint with your github username, the server will respon
   </p>
   <center></center>
 </center>
-
 
 
 ## Roadmap
